@@ -1,0 +1,49 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Nate's Nautical Space
+theme: ["PaperMod"]
+
+
+
+
+homeInfoParams:
+  Title: "Welcome To Nate's space"
+  Content: Hi, This is Nathan.  This is a place I'm documenting learning notes, and some cool projects.  These can cover Hardware, Software, and occasionally ML.  I'm currently a student fat WPI working on finishing my bachelors. This can be from prompt engineering and developing a large amount of 
+
+
+socialIcons:
+    - name: github
+      title: Checkout my github
+      url: "https://github.com/torn8to"
+
+
+
+
+params:
+  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  author: Theme PaperMod
+  # author: ["Me", "You"] # multiple authors
+
+  homeInfoParams:
+    Title: "Welcome To Nate's space"
+    Content: Hi, This is Nathan.  This is a place I'm documenting learning notes, and some cool projects.  These can cover Hardware, Software, and occasionally ML.  I'm currently a student fat WPI working on finishing my bachelors. This can be from prompt engineering and developing a large amount of 
+
+
+  socialIcons:
+    - name: github
+      title: Checkout my github
+      url: "https://github.com/torn8to"
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
