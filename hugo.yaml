@@ -1,22 +1,33 @@
-baseURL: https://example.org/
+baseURL: https://torn8to.github.io
 languageCode: en-us
 title: Nate's Nautical Space
 theme: ["PaperMod"]
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "resume"]
 
-
-
-
-homeInfoParams:
-  Title: "Welcome To Nate's space"
-  Content: Hi, This is Nathan.  This is a place I'm documenting learning notes, and some cool projects.  These can cover Hardware, Software, and occasionally ML.  I'm currently a student fat WPI working on finishing my bachelors. This can be from prompt engineering and developing a large amount of 
-
-
-socialIcons:
-    - name: github
-      title: Checkout my github
-      url: "https://github.com/torn8to"
-
-
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts 
+          url: posts/
+          weight: 5
+        - name: Resume
+          url: resume/
+          weight: 10
+     
 
 
 params:
@@ -24,15 +35,20 @@ params:
   author: Theme PaperMod
   # author: ["Me", "You"] # multiple authors
 
+
   homeInfoParams:
     Title: "Welcome To Nate's space"
-    Content: Hi, This is Nathan.  This is a place I'm documenting learning notes, and some cool projects.  These can cover Hardware, Software, and occasionally ML.  I'm currently a student fat WPI working on finishing my bachelors. This can be from prompt engineering and developing a large amount of 
+    Content: Hi, This is Nathan.  This is a place I'm documenting learning notes, and some cool projects.  These can cover Hardware, Software, and occasionally ML.  I'm currently a student fat WPI working on finishing my bachelors. I'm currently workiing on the AMD Pervaisve AI Developer challenge and electro-tactile gloves. 
 
 
   socialIcons:
     - name: github
       title: Checkout my github
       url: "https://github.com/torn8to"
+    - name: linkedin
+      title: Checkout my Linkedin
+      url: ""
+
 
   defaultTheme: auto
   # disableThemeToggle: true
@@ -47,3 +63,5 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
+
+
