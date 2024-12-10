@@ -1,6 +1,6 @@
 ---
 date: '2024-12-10T11:44:51-05:00'
-draft: true
+draft: false
 title: 'Speeding Up Python'
 ---
 
