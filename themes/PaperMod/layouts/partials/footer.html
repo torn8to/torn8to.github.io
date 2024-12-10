@@ -30,6 +30,10 @@
 </a>
 {{- end }}
 
+{{ if .Params.katex}}
+{{partial "katex.html" . }}
+{{end}}
+
 {{- partial "extend_footer.html" . }}
 
 <script>

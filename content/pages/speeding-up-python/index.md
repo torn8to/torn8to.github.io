@@ -3,6 +3,7 @@ date: '2024-12-10T11:44:51-05:00'
 draft: false
 title: 'Speeding Up Python'
 katex: true
+markup: "goldmark"
 ---
 
 

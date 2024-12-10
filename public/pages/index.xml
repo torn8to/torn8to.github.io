@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pages on ExampleSite</title>
     <link>//localhost:1313/pages/</link>
     <description>Recent content in Pages on ExampleSite</description>
-    <generator>Hugo</generator>
+    <image>
+      <title>ExampleSite</title>
+      <url>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.139.4</generator>
     <language>en</language>
     <lastBuildDate>Tue, 10 Dec 2024 11:44:51 -0500</lastBuildDate>
     <atom:link href="//localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +18,8 @@
       <link>//localhost:1313/pages/speeding-up-python/</link>
       <pubDate>Tue, 10 Dec 2024 11:44:51 -0500</pubDate>
       <guid>//localhost:1313/pages/speeding-up-python/</guid>
-      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;In a recent project I ran into an issue where i was creating a ros2 node, which converts images from a camera topic converted depth image to a Point Cloud. The ML library the model is was built on is tinygrad which forces the node implementation to be in python. This forces the use of open3d python bindings for the second part of the pipeline converting the depth image to the pointcloud This normally is quite simple to do using a third party library called open3d. I had run into a lack of this dependency as in the converion from python 3.11 to 3.12 is not as straight forward for the library so it has not been realeased for python 3.12.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;In a recent project I ran into an issue where i was creating a ros2 node, which converts images from a camera topic converted depth image to a Point Cloud. The ML library the model is was built on is tinygrad which forces the node implementation to be in python. This forces the use of open3d python bindings for the second part of the pipeline converting the depth image to the pointcloud This normally is quite simple to do using a third party library called open3d. I had run into a lack of this dependency as in the converion from python 3.11 to 3.12 is not as straight forward for the library so it has not been realeased for python 3.12.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
