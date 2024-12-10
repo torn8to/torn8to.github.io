@@ -2,6 +2,7 @@
 date: '2024-12-10T11:44:51-05:00'
 draft: false
 title: 'Speeding Up Python'
+katex: true
 ---
 
 
@@ -12,7 +13,6 @@ Implementing to convert from image coordinates to world coordinates for a depth 
 
 
 $$ z = d / scaling $$
-
 
 $$ x = (u - c_x) * z/fx $$
 
@@ -208,4 +208,4 @@ def convertToPointCloudMem(cnp.ndarray arr, float cx, float cy, float fx, float 
 | memory view | 0.00610 | 0.0012  | 0.0228923 | 0.00306 | 0.0885817 | 0.00028 |
 | memory view parallel| 0.001177 | 0.000075  | 0.0043309 | 0.00012 | 0.0126539 | 0.00028 |
 
-we've gotten our code to a point where it is 73x to 100x faster through which is enought to sort our use case but their are speed ups still available such as simd. I am happy wiht this performance as i have taken my dpeth to PCL generation code from being the major computational blocker in converting a depth image to a PointCloud. This leaves more room to use a more computationaly intense model model that can reduce blocks and latency in robot operation.emote --merge       run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+we've gotten our code to a point where it is 73x to 100x faster through which is enought to sort our use case but their are speed ups still available such as simd. I am happy wiht this performance as i have taken my dpeth to PCL generation code from being the major computational blocker in converting a depth image to a PointCloud. This leaves more room to use a more computationaly intense model model that can reduce blocks and latency
